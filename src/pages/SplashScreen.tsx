@@ -34,16 +34,16 @@ export default function SplashScreen() {
         boxShadow: '0 0 40px rgba(53,242,168,0.4)',
         animation: 'mintPulse 2s ease-in-out infinite',
         fontSize: 38,
-      }}>🌾</div>
+      }}>💎</div>
 
       <h1 style={{
         color: '#eef0f8', fontSize: 32, fontWeight: 700,
         letterSpacing: '-0.5px', margin: 0,
       }}>
-        Punjab<span style={{ color: '#35f2a8' }}>Mint</span>
+        Ranjan<span style={{ color: '#35f2a8' }}>Mint</span>
       </h1>
       <p style={{ color: 'rgba(238,240,248,0.45)', fontSize: 14, marginTop: 8 }}>
-        Digital Wallet
+        Banking Made Beautiful
       </p>
 
       {/* Loading dots */}

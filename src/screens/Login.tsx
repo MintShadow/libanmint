@@ -37,7 +37,7 @@ export default function Login() {
       fontFamily: 'DM Sans, system-ui, sans-serif',
     }}>
       <div style={{ textAlign: 'center', marginBottom: 40 }}>
-        {/* RanjanMint logo */}
+        {/* PunjabMint logo */}
         <div style={{
           width: 72, height: 72, borderRadius: 22,
           background: 'linear-gradient(135deg, #0d7a5f, #35f2a8)',
@@ -46,13 +46,13 @@ export default function Login() {
           boxShadow: '0 0 36px rgba(53,242,168,0.4)',
           fontSize: 36,
           animation: 'mintPulse 2s ease-in-out infinite',
-        }}>🌾</div>
+        }}>💎</div>
 
         <h1 style={{ color: '#eef0f8', fontSize: 28, fontWeight: 700, margin: 0 }}>
-          Punjab<span style={{ color: '#35f2a8' }}>Mint</span>
+          Ranjan<span style={{ color: '#35f2a8' }}>Mint</span>
         </h1>
         <p style={{ color: 'rgba(238,240,248,0.45)', fontSize: 14, marginTop: 6 }}>
-          Sign in to your wallet
+          Banking Made Beautiful
         </p>
       </div>
 
