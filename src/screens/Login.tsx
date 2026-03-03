@@ -46,13 +46,13 @@ export default function Login() {
           boxShadow: '0 0 36px rgba(53,242,168,0.4)',
           fontSize: 36,
           animation: 'mintPulse 2s ease-in-out infinite',
-        }}>💎</div>
+        }}>🌙</div>
 
         <h1 style={{ color: '#eef0f8', fontSize: 28, fontWeight: 700, margin: 0 }}>
-          Ranjan<span style={{ color: '#35f2a8' }}>Mint</span>
+          Liban<span style={{ color: '#35f2a8' }}>Mint</span>
         </h1>
         <p style={{ color: 'rgba(238,240,248,0.45)', fontSize: 14, marginTop: 6 }}>
-          Banking Made Beautiful
+          Your Money, Your Way
         </p>
       </div>
 
