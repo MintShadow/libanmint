@@ -204,7 +204,7 @@ export default function WalletOverviewPage() {
             <h2 style={{ color: '#fff', fontSize: 40, fontWeight: 800, margin: '0 0 4px', letterSpacing: '-1.5px' }}>
               {balanceVisible ? fmt(balance ?? 0) : '••••••'}
             </h2>
-            <p style={{ color: 'rgba(255,255,255,0.55)', fontSize: 13, margin: 0 }}>RanjanMint Wallet</p>
+            <p style={{ color: 'rgba(255,255,255,0.55)', fontSize: 13, margin: 0 }}>LibanMint Wallet</p>
           </div>
           <button
             onClick={() => setBalanceVisible(v => !v)}

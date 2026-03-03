@@ -301,7 +301,7 @@ export default function GuestPaymentPage() {
         note: data.note,
         expires_at: data.expires_at,
         requester: {
-          full_name: profile?.full_name || "RanjanMint User",
+          full_name: profile?.full_name || "LibanMint User",
           username: profile?.username || "user",
           avatar_url: profile?.avatar_url || null,
         },
@@ -367,7 +367,7 @@ export default function GuestPaymentPage() {
         <div style={{ fontSize: 48, marginBottom: 16 }}>&#x26A0;&#xFE0F;</div>
         <h2 style={{ margin: "0 0 8px", fontSize: 20 }}>Request not found</h2>
         <p style={{ color: "rgba(238,240,248,0.4)", fontSize: 14, margin: "0 0 24px" }}>{error || "This payment link is invalid or has expired."}</p>
-        <a href="/" style={{ color: "#35f2a8", fontSize: 14, fontWeight: 600 }}>Go to RanjanMint</a>
+        <a href="/" style={{ color: "#35f2a8", fontSize: 14, fontWeight: 600 }}>Go to LibanMint</a>
       </div>
     </div>
   );
@@ -403,7 +403,7 @@ export default function GuestPaymentPage() {
         </div>
         <div style={{ background: "rgba(53,242,168,0.05)", border: "1px solid rgba(53,242,168,0.15)", borderRadius: 14, padding: "14px 18px", marginBottom: 28, width: "100%" }}>
           <p style={{ margin: "0 0 4px", fontSize: 13, fontWeight: 700, color: "#35f2a8" }}>Want to send money for free?</p>
-          <p style={{ margin: 0, fontSize: 12, color: "rgba(238,240,248,0.45)" }}>Join RanjanMint - instant transfers, no fees.</p>
+          <p style={{ margin: 0, fontSize: 12, color: "rgba(238,240,248,0.45)" }}>Join LibanMint - instant transfers, no fees.</p>
         </div>
       </div>
       <style>{`@keyframes popIn{from{transform:scale(0.5);opacity:0}to{transform:scale(1);opacity:1}}`}</style>
@@ -415,7 +415,7 @@ export default function GuestPaymentPage() {
     <div style={{ ...s.page, background: "radial-gradient(circle at 50% 0%, rgba(246,166,35,0.1), transparent 55%), #060810" }}>
       <div style={s.inner}>
         <div style={s.brand}>
-          <div style={{ fontSize: 13, fontWeight: 700, color: "#35f2a8", letterSpacing: "0.12em", textTransform: "uppercase" }}>RanjanMint</div>
+          <div style={{ fontSize: 13, fontWeight: 700, color: "#35f2a8", letterSpacing: "0.12em", textTransform: "uppercase" }}>LibanMint</div>
           <p style={{ color: "rgba(238,240,248,0.35)", fontSize: 12, margin: "4px 0 0" }}>Secure Payment Request</p>
         </div>
 
@@ -429,7 +429,7 @@ export default function GuestPaymentPage() {
             </div>
           )}
           <h2 style={{ margin: "0 0 2px", fontSize: 20, fontWeight: 800 }}>{req.requester.full_name}</h2>
-          <p style={{ margin: 0, fontSize: 13, color: "rgba(238,240,248,0.4)" }}>@{req.requester.username} - RanjanMint</p>
+          <p style={{ margin: 0, fontSize: 13, color: "rgba(238,240,248,0.4)" }}>@{req.requester.username} - LibanMint</p>
         </div>
 
         {/* Amount card */}
@@ -461,7 +461,7 @@ export default function GuestPaymentPage() {
 
         <div style={{ background: "rgba(53,242,168,0.04)", border: "1px solid rgba(53,242,168,0.12)", borderRadius: 16, padding: "16px 20px", textAlign: "center" }}>
           <p style={{ margin: "0 0 4px", fontSize: 14, fontWeight: 600 }}>Send and receive money for free</p>
-          <p style={{ margin: "0 0 10px", fontSize: 12, color: "rgba(238,240,248,0.4)" }}>Join RanjanMint - instant transfers, no fees</p>
+          <p style={{ margin: "0 0 10px", fontSize: 12, color: "rgba(238,240,248,0.4)" }}>Join LibanMint - instant transfers, no fees</p>
           <a href="/signup" style={{ background: "rgba(53,242,168,0.12)", border: "1px solid rgba(53,242,168,0.3)", borderRadius: 8, padding: "8px 20px", color: "#35f2a8", fontSize: 13, fontWeight: 700, cursor: "pointer", textDecoration: "none", display: "inline-block" }}>Create free account</a>
         </div>
       </div>

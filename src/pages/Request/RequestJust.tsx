@@ -36,7 +36,7 @@ export default function RequestJust() {
       .rpc('get_user_id_by_email', { email: fromEmail.trim().toLowerCase() });
 
     if (recipientErr || !recipientData || recipientData.length === 0) {
-      setError('No RanjanMint account found with that email.');
+      setError('No LibanMint account found with that email.');
       setLoading(false);
       return;
     }

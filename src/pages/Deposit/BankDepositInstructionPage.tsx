@@ -7,7 +7,7 @@ type CopyState = Record<string, boolean>;
 // In a real app these would come from your backend / Supabase config
 const BANK_DETAILS = {
   bankName: 'Commonwealth Bank',
-  accountName: 'RanjanMint Pty Ltd',
+  accountName: 'LibanMint Pty Ltd',
   bsb: '062-000',
   accountNumber: '1234 5678',
   swift: 'CTBAAU2S',

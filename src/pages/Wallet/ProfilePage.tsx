@@ -349,7 +349,7 @@ export default function ProfilePage() {
 
       {/* App version */}
       <p style={{ textAlign: 'center', color: 'rgba(238,240,248,0.15)', fontSize: 12, margin: '8px 0 0' }}>
-        RanjanMint v3.0 · Built with ♥
+        LibanMint v3.0 · Built with ♥
       </p>
 
       <style>{`

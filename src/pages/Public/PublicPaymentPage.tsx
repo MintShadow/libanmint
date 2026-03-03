@@ -152,9 +152,9 @@ export default function PublicPaymentPage() {
         <div style={{ fontSize: 64, marginBottom: 20 }}>🔍</div>
         <h1 style={{ margin: '0 0 10px', fontSize: 24, fontWeight: 800 }}>User not found</h1>
         <p style={{ margin: '0 0 32px', color: 'rgba(238,240,248,0.45)', fontSize: 15 }}>
-          @{username} doesn't exist on RanjanMint.
+          @{username} doesn't exist on LibanMint.
         </p>
-        <button onClick={() => navigate('/')} style={styles.primaryBtn}>Go to RanjanMint</button>
+        <button onClick={() => navigate('/')} style={styles.primaryBtn}>Go to LibanMint</button>
       </div>
     );
   }
@@ -166,7 +166,7 @@ export default function PublicPaymentPage() {
         <div style={{ fontSize: 56, marginBottom: 20 }}>🔐</div>
         <h1 style={{ margin: '0 0 10px', fontSize: 22, fontWeight: 800 }}>Sign in to pay</h1>
         <p style={{ margin: '0 0 8px', color: 'rgba(238,240,248,0.5)', fontSize: 15 }}>
-          You need a RanjanMint account to send{' '}
+          You need a LibanMint account to send{' '}
           <span style={{ color: '#35f2a8', fontWeight: 700 }}>{fmt(parseFloat(amount))}</span>{' '}
           to <span style={{ color: '#eef0f8', fontWeight: 600 }}>@{username}</span>.
         </p>
@@ -236,10 +236,10 @@ export default function PublicPaymentPage() {
   if (step === 'enter') {
     return (
       <div style={styles.page}>
-        {/* RanjanMint branding */}
+        {/* LibanMint branding */}
         <div style={{ textAlign: 'center', padding: '24px 24px 0' }}>
           <span style={{ fontSize: 12, fontWeight: 700, color: '#35f2a8', letterSpacing: '0.12em', textTransform: 'uppercase' }}>
-            ✦ RanjanMint
+            ✦ LibanMint
           </span>
         </div>
 
